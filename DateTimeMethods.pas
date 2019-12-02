@@ -20,3 +20,8 @@ function DaysInMonth(month, year: integer): integer;
 begin
   
 end;
+
+function SecondsInHours(hours: integer): integer;
+begin
+  SecondsInHours := hours * 60 * 60;
+end;
